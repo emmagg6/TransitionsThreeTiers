@@ -74,6 +74,7 @@ cf_rules = {
         "PP_conj": [["Conj", "PP"], []]
     }
 
+# Indexed Grammar (IXG) (a.k.a. mildly context-sensitive grammar) --- requiring a Higher Order Push Down Automata (HOPDA) for recognition
 ix_rules = {   # adjusted rules for unbounded cross-serial dependencies
         "S": [["NP_sg", "VP_sg"], ["NP_pl", "VP_pl"]],
 
@@ -238,7 +239,7 @@ def main_example(print_traversal=False):
     print(sentence_str + ".\n")
 
 
-    print("\n=== Mildly Context-Sensitive Grammar (IXG) Sentence ===")
+    print("\n=== Indexed Grammar (IXG) Sentence ===")
     ix_sentence = generate_sentence_noncf(ix_rules, lexicon, max_expansion_per_symbol=10, max_recursion_depth=4, print_out=print_traversal)  # limit to better represent English-like sentences
     sentence_str = ' '.join(ix_sentence)
     sentence_str = sentence_str[0].upper() + sentence_str[1:]
@@ -268,7 +269,7 @@ def main_export_lists(n, path = ''):
     with open("sentence_lists/cf_sentences.txt", "w") as cf_file:
         while cf_cnt < n:
             print(f"\n\n\nGenerating CF sentence {cf_cnt+1}...")
-            cf_sentence = generate_sentence(cf_rules, lexicon, max_expansion_per_symbol=20, max_recursion_depth=10, print_out=True)
+            cf_sentence = generate_sentence(cf_rules, lexicon, max_expansion_per_symbol=20, max_recursion_depth=10, print_out=False)
             if cf_sentence is not None and len(cf_sentence) > 10 and len(cf_sentence) < 21: # limit to better represent English-like sentences
                 sentence_str = ' '.join(cf_sentence)
                 sentence_str = sentence_str[0].upper() + sentence_str[1:]
@@ -279,7 +280,7 @@ def main_export_lists(n, path = ''):
         while ix_cnt < n:
             try:
                 print(f"\n\n\nGenerating IX sentence {ix_cnt+1}...")
-                ix_sentence = generate_sentence_noncf(ix_rules, lexicon, max_expansion_per_symbol=20, max_recursion_depth=10, print_out=True)
+                ix_sentence = generate_sentence_noncf(ix_rules, lexicon, max_expansion_per_symbol=20, max_recursion_depth=10, print_out=False)
             except Exception as e:
                 print(f"Error: {e}")
             if ix_sentence is not None and len(ix_sentence) > 10 and len(ix_sentence) < 21: # limit to better represent English-like sentences
@@ -295,7 +296,7 @@ def main_export_lists(n, path = ''):
             try:
                 print(f"\n\n\nGenerating CS sentence {cs_cnt+1}...")
                 # run with python -u to see print dispite recursion limits (python -u current-new-sentences.py)
-                cs_sentence = generate_sentence_recursion_limits(cs_rules, lexicon, max_expansion_per_symbol=20, max_recursion_depth=10, print_out=True)
+                cs_sentence = generate_sentence_recursion_limits(cs_rules, lexicon, max_expansion_per_symbol=20, max_recursion_depth=10, print_out=False)
             except Exception as e:
                 print(f"Error: {e}")
             if cs_sentence is not None and len(cs_sentence) > 10 and len(cs_sentence) < 21: # limit to the length of the other sentences
