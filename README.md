@@ -1,4 +1,4 @@
-# TransitionsThreeTiers
+# Three tiers of computation in transformers and in brain architectures: *Supporting Code and Data*
 
 Supporting code for generating the sentences from a context-free grammar, an indexed grammar, and a context-sensitive grammar in the folder **sentence-generation** and Dataset S1 (stats.csv) for the Supplemental Text of **Three tiers of computation in transformers and in brain architectures** by Emma Graham and Richard Granger.
 
