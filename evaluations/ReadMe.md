@@ -1,0 +1,1 @@
+This *evaluations* folder contains the results from quering the models, the script used to calculate the statistics of acceptances, and the visualization scipt that creates a 3D bar graph from the statistics. 
