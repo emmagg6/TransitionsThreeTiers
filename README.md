@@ -8,9 +8,9 @@ Supporting code for generating the sentences from a context-free grammar, an ind
 
 
 
-```
-This code was run with Python 3.10.15 and with the packages *random*, *os*, *sys*, and *time* to run the **sentence-generation/main.py** file.
-```
+
+*This code was run with Python 3.10.15 and with the packages* random, os, sys, *and* time *to run the **sentence-generation/main.py** file.*
+
 
 
 
