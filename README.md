@@ -14,4 +14,4 @@ Supporting code for generating the sentences from a context-free grammar, an ind
 
 
 
-*contact emma.graham.th@dartmouth.edu for additional scripts (API calling/configural and evaluatory)*
+<contact emma.graham.th@dartmouth.edu for additional scripts (API calling/configural and evaluatory)>
