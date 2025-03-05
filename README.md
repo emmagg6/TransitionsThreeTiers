@@ -13,7 +13,7 @@ Supporting code for generating the sentences from a context-free grammar, an ind
 
 
 <details>  
-<summary>Additional code + query wrapper contact information</summary>
+<summary>Additional (private) code contact information: </summary>
 
 contact emma.graham.th@dartmouth.edu for 
 
