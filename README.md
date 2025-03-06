@@ -4,7 +4,7 @@
 Supporting code for generating the sentences from a context-free grammar, an indexed grammar, and a context-sensitive grammar in the folder **sentence-generation** and Dataset S1 (stats.csv) and Dataset S2 (stats_per_question.csv) in the folder **evaluations**, for the Supplemental Text of **Three tiers of computation in transformers and in brain architectures** by Emma Graham and Richard Granger.
 
 
-> The **Three tiers of computation in transformers and in brain architectures** gives novel evaluations and offers potential explanations for the concerns of current approaches toward more competent and general AI systems, such as those discussed in [How AI can achieve human-level intelligence: researchers call for change in tack](https://www.nature.com/articles/d41586-025-00649-4?utm_source=Live+Audience&utm_campaign=865f0cafd4-nature-briefing-daily-20250305&utm_medium=email&utm_term=0_b27a691814-865f0cafd4-49902692)
+> The **Three tiers of computation in transformers and in brain architectures** proposes and performs novel computational evaluations and offers potential explanations for the concerns of current approaches of research directions toward more competent and general AI systems, such as those discussed in [How AI can achieve human-level intelligence: researchers call for change in tack](https://www.nature.com/articles/d41586-025-00649-4?utm_source=Live+Audience&utm_campaign=865f0cafd4-nature-briefing-daily-20250305&utm_medium=email&utm_term=0_b27a691814-865f0cafd4-49902692)
 
 
 
