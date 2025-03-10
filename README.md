@@ -12,18 +12,6 @@ Supporting code for generating the sentences from a context-free grammar, an ind
 
 
 
-<details>  
-<summary>Additional (private) code contact information: </summary>
-
-contact emma.graham.th@dartmouth.edu for 
-
-* additional scripts of API calling wrappers
-* evaluation scripts and raw model outputs
-* visualization scripts
-
-</details>
-
-
 
 ```bibtex
 @misc{graham2025tierscomputationtransformersbrain,
@@ -36,3 +24,16 @@ contact emma.graham.th@dartmouth.edu for
       url={https://arxiv.org/abs/2503.04848}, 
 }
 ```
+
+
+<details>  
+<summary>Additional (private) code contact information: </summary>
+
+contact emma.graham.th@dartmouth.edu for 
+
+* additional scripts of API calling wrappers
+* evaluation scripts and raw model outputs
+* visualization scripts
+
+</details>
+
